@@ -1,0 +1,96 @@
+{
+  "perf_assess": {
+    "$schema": "https://json-schema.org/draft-07/schema",
+    "description": "Generated from JSON data",
+    "properties": {
+      "agent_id": {
+        "type": "string"
+      },
+      "hostname": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer"
+      },
+      "origin_timestamp": {
+        "properties": {
+          "$date": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "$date"
+        ],
+        "type": "object"
+      },
+      "payload": {
+        "type": "string"
+      },
+      "payload_length": {
+        "type": "integer"
+      },
+      "period": {
+        "type": "integer"
+      },
+      "timecode": {
+        "type": "number"
+      },
+      "timestamp": {
+        "properties": {
+          "$date": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "$date"
+        ],
+        "type": "object"
+      }
+    },
+    "required": [
+      "agent_id",
+      "hostname",
+      "id",
+      "origin_timestamp",
+      "payload",
+      "payload_length",
+      "period",
+      "timecode",
+      "timestamp"
+    ],
+    "title": "Generated Schema",
+    "type": "object"
+  },
+  "pressure": {
+    "properties": {
+      "time": {
+        "format": "date-time",
+        "type": "string"
+      },
+      "value": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "time",
+      "value"
+    ],
+    "type": "object"
+  },
+  "temperature": {
+    "properties": {
+      "time": {
+        "format": "date-time",
+        "type": "string"
+      },
+      "value": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "time",
+      "value"
+    ],
+    "type": "object"
+  }
+}
