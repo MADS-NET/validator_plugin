@@ -1,3 +1,5 @@
+[![Build and Release](https://github.com/MADS-NET/validator_plugin/actions/workflows/release.yml/badge.svg)](https://github.com/MADS-NET/validator_plugin/actions/workflows/release.yml)
+
 # validator plugin for MADS
 
 This is a Sink plugin for [MADS](https://github.com/MADS-NET/MADS). 

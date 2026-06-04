@@ -36,19 +36,19 @@ jobs:
             platform: ""
             osx_architectures: ""
 
-          - name: macOS x86_64
-            id: macos-x86_64
-            runner: macos-13
-            generator: Ninja
-            platform: ""
-            osx_architectures: ""
+          # - name: macOS x86_64
+          #   id: macos-x86_64
+          #   runner: macos-13
+          #   generator: Ninja
+          #   platform: ""
+          #   osx_architectures: ""
 
-          - name: macOS arm64
-            id: macos-arm64
-            runner: macos-14
-            generator: Ninja
-            platform: ""
-            osx_architectures: ""
+          # - name: macOS arm64
+          #   id: macos-arm64
+          #   runner: macos-14
+          #   generator: Ninja
+          #   platform: ""
+          #   osx_architectures: ""
 
           - name: macOS universal
             id: macos-universal
