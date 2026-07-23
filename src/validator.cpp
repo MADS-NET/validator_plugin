@@ -193,7 +193,7 @@ private:
                 |___/
 Enable the class as plugin
 */
-INSTALL_SINK_DRIVER(ValidatorPlugin, json)
+MADS_REGISTER_PLUGINS(ValidatorPlugin)
 
 /*
                   _
