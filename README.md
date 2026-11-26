@@ -7,7 +7,7 @@ This is a Sink plugin for [MADS](https://github.com/MADS-NET/MADS).
 
 This plugins validates the JSON messages received from the subscribed topics against the JSON schemas defined in `schemas.json`. If a message does not conform to the schema, an error is logged.
 
-*Required MADS version: 2.1.0.*
+> This plugin has been updated for MADS v3
 
 
 ## Supported platforms
